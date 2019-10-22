@@ -1,16 +1,14 @@
 body{
   background-color: #ECECEC;
   font-family: arial, sans-serif;
-  color: #595B5B;
-}
+  color: #595B5B;}
 
 .wrapper {
   background-color: #ffffff;
   width:92%;
   max-width: 800px;
    margin: 0 auto;
-   padding: 12px 20px;
-}
+   padding: 12px 20px;}
 
 h1, h2{
   color: #564256;
