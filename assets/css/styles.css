@@ -22,6 +22,10 @@ h1{
   margin-bottom: . 5em;
 }
 
+h1#page-title{
+  margin: 0;
+}
+
 h2{
   margin-bottom: .25em;
   margin-top: 1em;
@@ -36,7 +40,6 @@ blockquote {
 }
 
 .image {
-  text-align: center;
   margin: 2em 0;
 }
 
@@ -70,26 +73,27 @@ header {
   text-align: center;
 }
 
+header.wrapper{
+  padding: 26px 20px;
+}
+
 Footer.wrapper {
   font-size: 8pt;
   text-align: center;
-  padding: 20px 20px;
+  padding: 26px 20px;
   border-top: 2px solid #564256;
 }
 
+article{
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+
 @media all and (min-width: 920px){
-  article, aside{
-    float: left;
-  }
 
-  article{
-    width: 75%;
-    padding-right: 20px;
-  }
-
-  aside{
-    width: 25%;
-  }
   aside h2:first-child {
     margin-top: 15px;
   }
