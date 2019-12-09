@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #BEE0E2;
+  font-family: trebuchet;
+  color: #151519;}
+
+.wrapper {
+  background-color: #BEE0E2;
+  width:98%;
+  max-width: 800px;
+   margin: 0 auto;
+   padding: 12px 20px;
+ }
+
+h1, h2{
+  color: #151519;
+}
+
+h1{
+  margin-bottom: . 5em;
+}
+
+#flippy{
+  text-align: center;
+}
+
+h1#page-title{
+  margin: 0;
+}
+
+h2{
+  margin-bottom: .25em;
+  margin-top: 1em;
+}
+
+blockquote {
+  border-left: 2px solid #151519;
+  padding: 8px;
+  background-color: #EFEBDF;
+  margin-left: 0;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.caption {
+  font-style: italic;
+  margin-top: .25em;
+}
+
+a {
+  color: #151519
+}
+
+
+img {max-width: 50%;
+  height: auto;
+
+}
+
+ul{
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+header {
+  background-image: url(../images/morocco.png);
+  border-bottom: 2px solid #151519;
+  text-align: center;
+}
+
+header.wrapper{
+  padding: 26px 20px;
+}
+
+Footer.wrapper {
+  font-size: 8pt;
+  text-align: center;
+  padding: 26px 20px;
+  border-top: 2px solid #151519;
+  background-image: url(../images/morocco.png);
+}
+
+article{
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+
+@media all and (min-width: 920px){
+
+  aside h2:first-child {
+    margin-top: 15px;
+  }
+}
